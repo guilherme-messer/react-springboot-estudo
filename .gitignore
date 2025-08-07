@@ -1,0 +1,62 @@
+# Arquivos de ambiente
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+backend/logs/
+
+# Dependências
+node_modules/
+backend/target/
+frontend/build/
+frontend/node_modules/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# SSL Certificates (se usando certificados reais)
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# Backup files
+*.sql.backup
+*.dump
+
+# Temporary files
+*.tmp
+*.temp
+
+# Spring Boot
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-prod.yml
+
+# React
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/build/
+
+# Maven
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Gradle (se usar Gradle)
+backend/.gradle/
+backend/build/
+
